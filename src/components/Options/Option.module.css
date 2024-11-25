@@ -1,0 +1,15 @@
+.buttons {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+
+  & button {
+    padding: 6px 6px;
+    border-radius: 4px;
+  }
+  & button:hover {
+    cursor: pointer;
+    background-color: #bdbcbc;
+    transition: all 0.3s ease;
+  }
+}
